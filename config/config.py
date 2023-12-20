@@ -18,14 +18,14 @@ from hydrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "1747534"))
+API_HASH = getenv("API_HASH", "5a2684512006853f2e48aca9652d83ea")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","6745946233:AAF2GmAqTSHsI6XTH2ER6L-sc3aQFIUUgYA")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://boo:boo@cluster0.crtlrai.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -38,14 +38,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002103252225"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","Youtube Music)
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "6780354996").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -139,7 +139,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a hydrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BAC88HEaYcsCIL0eJbb93a-QnjNExOvbLF5BB3Q1YcYYZPbwxUvWdGMlCCAhJBAMp56wfY8huPzKPHft9LdwbI753SZMfOrwrzgivLJujQZe8vJxsM8TVqcA2Zxqrtkwx5LUCLS_Ar55xeCpRyo2yYBIAjcx7Mgc4h5q5e7PpYN7yrFtd47W-mtFLrLuIP1CIUYcqoRl-hvbVs_24Ewz7O_28D8JzJqkkdkcvcyeNjNVyho36sZWPa4RRo5MM-DfjegU2gEqJNfoMSE70JIvM05rl13CU-fZRF2sysNPX-pM8U9iFacSkLmnmy3fItv5E_40ntmX82IGAVBvCd7Gxo2HAAAAAZdhdZIA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -213,7 +213,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://telegra.ph/file/76d29aa31c40a7f026d7e.jpg",
+    "https://telegra.ph/file/23c1aa0461d985af2e928.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
