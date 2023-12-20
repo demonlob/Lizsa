@@ -139,7 +139,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a hydrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION1","BACrGrUGGX0EmvIsdImBQgNiY-8pK_vgtnGTdiUXz0duXvn8otKIFUPie2wswMcKFG7JDqLjZSzVNxApkGLXv4UcIQgRIH1L3e_b6of8LCI57m6V98KcM7qeWzGJt6u1dgLEb6r5eLQyYAnsvbDxE7Lpo8DtiD2o2Z_9gc0SsUpse_Tsh94D0-U7WMLsUNDG6etImob7ehl7zSw6hD_k49G_pfsrX8n_e_-rtuC1FQVn6scmbV_cloTYNE6WsEWhpPZZt7ORKbLm7C3jkZamq5CZh0rGd4fzro8rbqRDXN4HIwREfPQjFy0jb6XS3LWizsqlJG0KNVN8l9_D6X3w-Vu4AAAAAZdhdZIA")
+STRING1 = getenv("STRING_SESSION", "BACrGrUGGX0EmvIsdImBQgNiY-8pK_vgtnGTdiUXz0duXvn8otKIFUPie2wswMcKFG7JDqLjZSzVNxApkGLXv4UcIQgRIH1L3e_b6of8LCI57m6V98KcM7qeWzGJt6u1dgLEb6r5eLQyYAnsvbDxE7Lpo8DtiD2o2Z_9gc0SsUpse_Tsh94D0-U7WMLsUNDG6etImob7ehl7zSw6hD_k49G_pfsrX8n_e_-rtuC1FQVn6scmbV_cloTYNE6WsEWhpPZZt7ORKbLm7C3jkZamq5CZh0rGd4fzro8rbqRDXN4HIwREfPQjFy0jb6XS3LWizsqlJG0KNVN8l9_D6X3w-Vu4AAAAAZdhdZIA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
